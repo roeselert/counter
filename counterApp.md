@@ -12,6 +12,9 @@
 ## Development & deployment
 ### First plan the implementation and add a section to implementation.md
 ### Deploy the app at the end of a session by pushing to the git repo
+### Include a version number in the footer. Increment the version before you commit
+
+
 
 ## Acceptence test
 # WHEN I open the app 
