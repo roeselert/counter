@@ -43,7 +43,7 @@ function onPressStart(e) {
   app.classList.add('pressing');
   resetTimer = setTimeout(() => {
     reset();
-  }, 5000);
+  }, 3000);
 }
 
 function onPressEnd(e) {
@@ -51,7 +51,7 @@ function onPressEnd(e) {
   if (pressStart === null) return;
 
   const elapsed = Date.now() - pressStart;
-  if (elapsed < 5000) {
+  if (elapsed < 3000) {
     clearTimeout(resetTimer);
     resetTimer = null;
     app.classList.remove('pressing');
